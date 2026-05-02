@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Souza-DR.github.io/sitemap.xml
+Sitemap: https://souza-dr.github.io/sitemap.xml
