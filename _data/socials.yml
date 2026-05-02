@@ -8,6 +8,6 @@ orcid_id: 0000-0002-1786-1005
 research_gate_profile: Danilo-Souza-36
 scholar_userid: a3NLwcoAAAAJ # your Google Scholar ID
 scopus_id: 59412730300
-rss_icon: true # comment this line to hide the RSS icon
+# rss_icon: true # comment this line to hide the RSS icon
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
