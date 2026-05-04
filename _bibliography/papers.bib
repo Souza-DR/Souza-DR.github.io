@@ -4,6 +4,9 @@
 @string{aps = {American Physical Society,}}
 
 @mastersthesis{souza2019dyconjugategradient,
+  abbr     = {RepoUFG},
+  bibtex_show = {true},
+  mine     = {true},
   title    = {Método do gradiente conjugado Dai-Yuan modificado para otimização irrestrita},
   author   = {Souza, Danilo R.},
   school   = {Universidade Federal de Goiás},
@@ -12,7 +15,110 @@
   month    = {February},
   note     = {M.Sc. thesis in Mathematics},
   pdf      = {https://repositorio.bc.ufg.br/tedeserver/api/core/bitstreams/ed33baf8-2725-4d5f-a174-167794f4f7ad/content},
-  abstract = {Os métodos de gradiente conjugado não-lineares são métodos de primeira ordem reconhecidamente eficientes para resolver problemas de otimização irrestritos. Em particular, o método de Dai-Yuan (DY), introduzido nos final dos anos 90, é um dos mais populares. O objetivo deste trabalho é investigar o desempenho numérico do método DY com uma modificação no parâmetro conjugado. A cada iteração desse método, é necessário computar um tamanho de passo satisfazendo as condições padrões de Wolfe. Assim, descreveremos o algoritmo de busca linear de Moré e Thuente. Sob hipóteses usuais, a convergência global do método de DY modificado será provada. Testes numéricos serão apresentados utilizando a biblioteca de problemas CUTEst.}
+  abstract = {Nonlinear conjugate gradient methods are efficient first-order algorithms for solving unconstrained optimization problems. In particular, the Dai-Yuan (DY) method, introduced in the 1990s, is one of the most popular. The objective of the present work is to investigate the numerical performance of the DY method with a modification in the conjugate parameter. At each iteration of this method, it is necessary to compute a step size satisfying the standard Wolfe conditions. Thus, we will describe the line search algorithm of Moré and Thuente. Under usual assumptions, the global convergence of the modified DY method will be provided. Numerical tests will be presented using the CUTEst problem library.}
+}
+
+@phdthesis{souza2023quasinewtonwolfe,
+  abbr        = {RepoUFG},
+  bibtex_show = {true},
+  mine        = {true},
+  title       = {Métodos Quase-Newton com Busca Linear de Wolfe para Otimização Multiobjetivo},
+  author      = {Souza, Danilo R.},
+  school      = {Universidade Federal de Goiás},
+  location    = {Goiânia, Brazil},
+  year        = {2023},
+  month       = {February},
+  note        = {Ph.D. thesis in Mathematics},
+  pdf         = {https://repositorio.bc.ufg.br/tedeserver/api/core/bitstreams/64bb2388-607a-4877-ac69-38b989f74579/content},
+  abstract    = {We propose three BFGS-type methods with Wolfe line search for unconstrained multiobjective optimization. The algorithms are well defined even for general nonconvex problems. The first one mimics the classical BFGS method for scalar optimization, for which global convergence and R-linear convergence to a Pareto optimal point are established for strongly convex problems. In the local convergence analysis, the rate is Q-superlinear. The other two algorithms are globally convergent versions of the BFGS method for nonconvex problems. Finally, we explicitly characterize in a non-asymptotic way the superlinear local convergence of the BFGS method for multiobjective optimization.}
+}
+
+@article{amaral2026pdfreemo,
+  abbr        = {arXiv},
+  bibtex_show = {true},
+  mine        = {true},
+  title       = {A Partially Derivative-Free Proximal Method for Composite Multiobjective Optimization in the Holder Setting},
+  author      = {Amaral, V. S. and Assuncao, P. B. and Souza, D. R.},
+  journal     = {arXiv},
+  year        = {2026},
+  month       = {January},
+  doi         = {10.48550/arXiv.2508.20071},
+  eprint      = {2508.20071},
+  archivePrefix = {arXiv},
+  primaryClass = {math.OC},
+  pdf         = {https://arxiv.org/pdf/2508.20071},
+  code        = {https://github.com/Souza-DR/AAS2025-PDFreeMO},
+  abstract    = {This paper presents an algorithm for solving multiobjective optimization problems involving composite functions, where we minimize a quadratic model that approximates $F(x) - F(x^k)$ and that can be derivative-free. We establish theoretical assumptions about the component functions of the composition and provide comprehensive convergence and complexity analysis. Specifically, we prove that the proposed method converges to a weakly $\varepsilon$-approximate Pareto point in at most $\mathcal{O}\left(\varepsilon^{-\frac{\beta+1}{\beta}}\right)$ iterations, where $\beta$ denotes the H\"{o}lder exponent of the gradient. The algorithm incorporates gradient approximations and a scaling matrix $B_k$ to achieve an optimal balance between computational accuracy and efficiency. Numerical experiments on a collection of benchmark problems are presented, illustrating the practical behavior of the proposed approach and its competitiveness with existing composite algorithms.}
+}
+
+@article{birgin2024voronoipotential,
+  abbr        = {ESAIM:COCV},
+  bibtex_show = {true},
+  mine        = {true},
+  title       = {Reconstruction of Voronoi diagrams in inverse potential problems},
+  author      = {Birgin, E. G. and Laurain, A. and Souza, D. R.},
+  journal     = {ESAIM: Control, Optimisation and Calculus of Variations},
+  volume      = {30},
+  pages       = {85},
+  year        = {2024},
+  doi         = {10.1051/cocv/2024072},
+  pdf         = {https://drive.google.com/file/d/1Fd_O2kunPsZ0FvFMDph0VRUf3Lx4rKOK/view?usp=sharing},
+  code        = {https://github.com/Souza-DR/bls2024-potential},
+  abstract    = {In this paper we propose and analyze a numerical method for the recovery of a piecewise constant parameter with multiple phases in the inverse potential problem. The potential is assumed to be constant in each phase, and the phases are modeled by a Voronoi diagram generated by a set of sites, which are used as control parameters. We first reformulate the inverse problem as an optimization problem with respect to the position of the sites. Combining techniques of non-smooth shape calculus and sensitivity of Voronoi diagrams, we are able to compute the gradient of the cost function, under standard non-degeneracy conditions of the diagram. We provide two different formulas for the gradient, a volumetric and an interface one, which are compared in numerical experiments. We provide several numerical experiments to investigate the dependence of the reconstruction on the problem parameters, such as noise, number of sites and initialization.}
+}
+
+@article{birgin2025voronoiconductivity,
+  abbr        = {InverseProblems},
+  bibtex_show = {true},
+  mine        = {true},
+  title       = {Reconstruction of Voronoi diagrams: the case of inverse conductivity problems},
+  author      = {Birgin, E. G. and Laurain, A. and Souza, D. R.},
+  journal     = {Inverse Problems},
+  volume      = {41},
+  pages       = {055007},
+  year        = {2025},
+  doi         = {10.1088/1361-6420/adcb68},
+  pdf         = {https://drive.google.com/file/d/1WD4A7q28Z3J2B-CCtPTtmcIKkssRWCFu/view?usp=sharing},
+  code        = {https://github.com/Souza-DR/bls2024-conductivity},
+  abstract    = {In this work, we present and analyze a numerical method for recovering a piecewise constant conductivity with multiple phases in inverse conductivity problems. Specifically, we consider two types of inverse conductivity problems: problems with boundary measurements or with internal measurements. The conductivity is assumed to be constant in each phase, and a Voronoi diagram generated by a set of sites is used to model the phases. An optimization problem with respect to the position of the sites is described to approximate the solution of the inverse problem. Combining techniques from non-smooth shape calculus and the sensitivity of Voronoi diagrams, we prove shape differentiability and compute the gradient of the cost function. Two different formulas for the gradient, a volumetric one and an interface one, are provided. The dependence of the reconstruction on the problem parameters, such as noise, number of sites, and initialization, is investigated through several numerical experiments.}
+}
+
+@article{prudente2024globalbfgs,
+  abbr        = {COAP},
+  bibtex_show = {true},
+  mine        = {true},
+  title       = {Global convergence of a BFGS-type algorithm for nonconvex multiobjective optimization problems},
+  author      = {Prudente, L. F. and Souza, D. R.},
+  journal     = {Computational Optimization and Applications},
+  volume      = {88},
+  number      = {3},
+  pages       = {719--757},
+  year        = {2024},
+  month       = {April},
+  doi         = {10.1007/s10589-024-00571-x},
+  pdf         = {https://drive.google.com/file/d/1IifQVgS2keXohzG-JpO1vwq0w7pQzLeE/view?usp=sharing},
+  code        = {https://github.com/lfprudente/GlobalBFGS},
+  abstract    = {We propose a modified BFGS algorithm for multiobjective optimization problems with global convergence, even in the absence of convexity assumptions on the objective functions. Furthermore, we establish a local superlinear rate of convergence of the method under usual conditions. Our approach employs Wolfe step sizes and ensures that the Hessian approximations are updated and corrected at each iteration to address the lack of convexity assumption. Numerical results shows that the introduced modifications preserve the practical efficiency of the BFGS method.}
+}
+
+@article{prudente2022bfgswolfe,
+  abbr        = {JOTA},
+  bibtex_show = {true},
+  mine        = {true},
+  selected    = {true},
+  google_scholar_id = {u5HHmVD_uO8C},
+  altmetric         = {132889447},
+  title       = {A quasi-Newton method with Wolfe line searches for multiobjective optimization},
+  author      = {Prudente, L. F. and Souza, D. R.},
+  journal     = {Journal of Optimization Theory and Applications},
+  volume      = {194},
+  pages       = {1107--1140},
+  year        = {2022},
+  month       = {March},
+  doi         = {10.1007/s10957-022-02072-5},
+  pdf         = {https://drive.google.com/file/d/1chEvf8SrfVoXU-hrL8UbgoGXSPEjz0vD/view?usp=sharing},
+  code        = {https://github.com/lfprudente/bfgsMOP},
+  abstract    = {We propose a BFGS method with Wolfe line searches for unconstrained multiobjective optimization problems. The algorithm is well defined even for general nonconvex problems. Global convergence and R-linear convergence to a Pareto optimal point are established for strongly convex problems. In the local convergence analysis, if the objective functions are locally strongly convex with Lipschitz continuous Hessians, the rate of convergence is Q-superlinear. In this respect, our method exactly mimics the classical BFGS method for single-criterion optimization.}
 }
 
 @book{einstein1920relativity,
@@ -69,7 +175,6 @@
   video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
   additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
   annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
   inspirehep_id     = {3255}
 }
 

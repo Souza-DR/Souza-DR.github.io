@@ -5,5 +5,25 @@
 "PhysRev":
   url: https://journals.aps.org/
 
+"RepoUFG":
+  url: https://repositorio.bc.ufg.br/tede/communities/b56de8e4-bbfc-4024-b2c3-44cbd34471da
+
+"JOTA":
+  url: https://link.springer.com/journal/10957
+
+"COAP":
+  url: https://link.springer.com/journal/10589
+
+"InverseProblems":
+  url: https://iopscience.iop.org/journal/0266-5611
+  color: "#ff0000"
+
+"ESAIM:COCV":
+  url: https://www.esaim-cocv.org/
+  color: "#ff0000"
+
+"arXiv":
+  url: https://arxiv.org/
+
 "Vision":
   color: "#009f36"
