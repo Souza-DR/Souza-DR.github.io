@@ -1,14 +1,53 @@
-github_users:
-  - torvalds
-  - alshedivat
+repository_groups:
+  - title: Vector Optimization Group
+    description: >
+      I am a co-founder of
+      [VectorOptimizationGroup](https://github.com/VectorOptimizationGroup), a
+      GitHub organization focused on software for multiobjective/vector
+      optimization.
+    people_label: Co-founders
+    people:
+      - name: L. F. Prudente
+        url: https://github.com/lfprudente
+      - name: Pedro Assuncao Filho
+        url: https://github.com/pedroassuncaofilho
+    repositories:
+      - name: MOSolvers.jl
+        url: https://github.com/VectorOptimizationGroup/MOSolvers.jl
+        summary: Solvers for multiobjective optimization.
+      - name: MOProblems.jl
+        url: https://github.com/VectorOptimizationGroup/MOProblems.jl
+        summary: Collection and organization of benchmark problems.
+      - name: MOMetrics.jl
+        summary: Metrics and evaluation utilities for multiobjective optimization experiments.
+        status: Currently private while under development.
 
-repo_description_lines_max: 2
-
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - title: Paper Repositories
+    description: >
+      Code and experiment repositories associated with my publications.
+    repositories:
+      - name: AAS2025-PDFreeMO
+        url: https://github.com/Souza-DR/AAS2025-PDFreeMO
+        summary: Code for the partially derivative-free proximal method for composite multiobjective optimization in the Holder setting.
+        related_title: A Partially Derivative-Free Proximal Method for Composite Multiobjective Optimization in the Holder Setting
+        related_url: /publications/#amaral2026pdfreemo
+      - name: bls2024-conductivity
+        url: https://github.com/Souza-DR/bls2024-conductivity
+        summary: Code for reconstruction of Voronoi diagrams in inverse conductivity problems.
+        related_title: "Reconstruction of Voronoi diagrams: the case of inverse conductivity problems"
+        related_url: /publications/#birgin2025voronoiconductivity
+      - name: bls2024-potential
+        url: https://github.com/Souza-DR/bls2024-potential
+        summary: Code for reconstruction of Voronoi diagrams in inverse potential problems.
+        related_title: Reconstruction of Voronoi diagrams in inverse potential problems
+        related_url: /publications/#birgin2024voronoipotential
+      - name: GlobalBFGS
+        url: https://github.com/lfprudente/GlobalBFGS
+        summary: Code for a globally convergent BFGS-type algorithm for nonconvex multiobjective optimization.
+        related_title: Global convergence of a BFGS-type algorithm for nonconvex multiobjective optimization problems
+        related_url: /publications/#prudente2024globalbfgs
+      - name: bfgsMOP
+        url: https://github.com/lfprudente/bfgsMOP
+        summary: Code for a quasi-Newton method with Wolfe line searches for multiobjective optimization.
+        related_title: A quasi-Newton method with Wolfe line searches for multiobjective optimization
+        related_url: /publications/#prudente2022bfgswolfe
