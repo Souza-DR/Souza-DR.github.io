@@ -1,57 +1,55 @@
 cv:
   name: Danilo R. Souza
-  label: Researcher in Mathematical Optimization and Inverse Problems
-  email: souzadr@unicamp.br / danilogyn01@gmail.com
+  headline: Researcher in Mathematical Optimization and Inverse Problems
+  email:
+    - souzadr@unicamp.br
+    - danilogyn01@gmail.com
   location: Unicamp, Campinas, SP
-  image: ""
-  summary: Mathematician with B.Sc., M.Sc., and Ph.D. degrees in Mathematics from the Universidade Federal de Goiás (Federal University of Goias) - UFG. My research focuses on continuous optimization, multiobjective optimization, derivative-free methods, inverse problems, and large-scale stochastic optimization for Full Waveform Inversion. I develop scientific software mainly in Julia, with interests in numerical methods, computational geophysics, high-performance computing, and multi-language scientific computing pipelines.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: Souza-DR
     - network: LinkedIn
-      username: example
-
-  address:
-    city: Unicamp, Campinas
-    region: SP
-    countryCode: BR
+      username: danilo-r-souza
+    - network: ORCID
+      username: 0000-0002-5504-4152
 
   sections:
+    Professional Summary:
+      - Mathematician with B.Sc., M.Sc., and Ph.D. degrees in Mathematics from the Universidade Federal de Goiás (Federal University of Goias) - UFG. My research focuses on continuous optimization, multiobjective optimization, derivative-free methods, inverse problems, and large-scale stochastic optimization for Full Waveform Inversion. I develop scientific software mainly in Julia, with interests in numerical methods, computational geophysics, high-performance computing, and multi-language scientific computing pipelines.
+
     Education:
       - institution: Universidade Federal de Goiás - UFG
         location: Goiânia, GO, Brazil
         area: Mathematics
-        studyType: Ph.D.
-        start_date: 2019
-        end_date: 2023
+        degree: Ph.D.
+        start_date: "2019"
+        end_date: "2023"
         highlights:
           - "Thesis: Métodos de Quasi-Newton com Busca Linear de Wolfe para Otimização Multiobjetivo (Quasi-Newton methods with Wolfe line search for multiobjective optimization)."
 
       - institution: Universidade Federal de Goiás - UFG
         location: Goiânia, GO, Brazil
         area: Mathematics
-        studyType: M.Sc.
-        start_date: 2017
-        end_date: 2019
+        degree: M.Sc.
+        start_date: "2017"
+        end_date: "2019"
         highlights:
           - "Dissertation: Método do gradiente conjugado Dai-Yuan modificado para otimização irrestrita (Modified Dai-Yuan conjugate gradient method for unconstrained optimization)."
 
       - institution: Universidade Federal de Goiás - UFG
         location: Goiânia, GO, Brazil
         area: Mathematics
-        studyType: B.Sc.
-        start_date: 2012
-        end_date: 2016
+        degree: B.Sc.
+        start_date: "2012"
+        end_date: "2016"
 
     Experience:
       - company: Universidade Estadual de Campinas - UNICAMP, IMECC
         position: Postdoctoral Researcher
         location: Campinas, SP, Brazil
-        start_date: 2025
-        end_date: Present
+        start_date: "2025"
+        end_date: present
         summary: "FUSP/RCGI/TotalEnergies - project no. 4157. Coordinator: Prof. Dr. Bruno S. Carmo. Supervisor: Prof. Dr. Paulo J. S. Silva."
         highlights:
           - "Project: AVENIR - Imagem quantitativa avançada de carbonatos do pré-sal (Caracterização de reservatórios sísmicos utilizando FWI)."
@@ -60,8 +58,8 @@ cv:
       - company: Universidade de São Paulo - USP, IME - Departamento de Ciência da Computação
         position: Postdoctoral Researcher in Applied Mathematics
         location: São Paulo, SP, Brazil
-        start_date: 2023
-        end_date: 2024
+        start_date: "2023"
+        end_date: "2024"
         summary: "FAPESP grant no. 2022/16733-6. Coordinator/Supervisor: Prof. Dr. Ernesto G. Birgin. Collaborating researcher: Prof. Dr. Antoine Laurain."
         highlights:
           - "Project: Reconstrução de diagramas de Voronoi em tomografia de impedância elétrica (Reconstruction of Voronoi diagrams in electrical impedance tomography)."
@@ -69,53 +67,73 @@ cv:
       - company: Instituto Federal de Goiás - Campus Cidade de Goiás
         position: Temporary Professor
         location: Goiás, GO, Brazil
-        start_date: 2020
-        end_date: 2022
+        start_date: "2020"
+        end_date: "2022"
         highlights:
           - Taught Calculus II.
 
     Publications:
       - title: A Partially Derivative-Free Proximal Method for Composite Multiobjective Optimization in the Holder Setting
-        publisher: arXiv, 2026
-        releaseDate: 2026
+        authors:
+          - V. S. Amaral
+          - P. B. Assuncao
+          - "*D. R. Souza*"
+        journal: arXiv:2508.20071 [math.OC]
+        date: "2026"
+        doi: 10.48550/arXiv.2508.20071
         url: https://doi.org/10.48550/arXiv.2508.20071
-        summary: V. S. Amaral, P. B. Assuncao, and D. R. Souza. arXiv:2508.20071 [math.OC].
 
       - title: "Reconstruction of Voronoi diagrams: the case of inverse conductivity problems"
-        publisher: Inverse Problems 41, 055007, 2025
-        releaseDate: 2025
+        authors:
+          - E. G. Birgin
+          - A. Laurain
+          - "*D. R. Souza*"
+        journal: Inverse Problems 41, 055007
+        date: "2025"
+        doi: 10.1088/1361-6420/adcb68
         url: https://doi.org/10.1088/1361-6420/adcb68
-        summary: E. G. Birgin, A. Laurain, and D. R. Souza.
 
       - title: Reconstruction of Voronoi diagrams in inverse potential problems
-        publisher: "ESAIM: Control, Optimisation and Calculus of Variations 30, 85, 2024"
-        releaseDate: 2024
+        authors:
+          - E. G. Birgin
+          - A. Laurain
+          - "*D. R. Souza*"
+        journal: "ESAIM: Control, Optimisation and Calculus of Variations 30, 85"
+        date: "2024"
+        doi: 10.1051/cocv/2024072
         url: https://doi.org/10.1051/cocv/2024072
-        summary: E. G. Birgin, A. Laurain, and D. R. Souza.
 
       - title: Global convergence of a BFGS-type algorithm for nonconvex multiobjective optimization problems
-        publisher: Computational Optimization and Applications 88, 719-757, 2024
-        releaseDate: 2024
+        authors:
+          - L. F. Prudente
+          - "*D. R. Souza*"
+        journal: Computational Optimization and Applications 88, 719-757
+        date: "2024"
+        doi: 10.1007/s10589-024-00571-x
         url: https://doi.org/10.1007/s10589-024-00571-x
-        summary: L. F. Prudente and D. R. Souza.
 
       - title: Métodos Quase-Newton com Busca Linear de Wolfe para Otimização Multiobjetivo
-        publisher: Ph.D. thesis in Mathematics, Universidade Federal de Goiás, 2023
-        releaseDate: 2023
+        authors:
+          - "*D. R. Souza*"
+        journal: Ph.D. thesis in Mathematics, Universidade Federal de Goiás
+        date: "2023"
         url: https://repositorio.bc.ufg.br/tedeserver/api/core/bitstreams/64bb2388-607a-4877-ac69-38b989f74579/content
-        summary: D. R. Souza.
 
       - title: A quasi-Newton method with Wolfe line searches for multiobjective optimization
-        publisher: Journal of Optimization Theory and Applications 194, 1107-1140, 2022
-        releaseDate: 2022
+        authors:
+          - L. F. Prudente
+          - "*D. R. Souza*"
+        journal: Journal of Optimization Theory and Applications 194, 1107-1140
+        date: "2022"
+        doi: 10.1007/s10957-022-02072-5
         url: https://doi.org/10.1007/s10957-022-02072-5
-        summary: L. F. Prudente and D. R. Souza.
 
       - title: Método do gradiente conjugado Dai-Yuan modificado para otimização irrestrita
-        publisher: M.Sc. thesis in Mathematics, Universidade Federal de Goiás, 2019
-        releaseDate: 2019
+        authors:
+          - "*D. R. Souza*"
+        journal: M.Sc. thesis in Mathematics, Universidade Federal de Goiás
+        date: "2019"
         url: https://repositorio.bc.ufg.br/tedeserver/api/core/bitstreams/ed33baf8-2725-4d5f-a174-167794f4f7ad/content
-        summary: D. R. Souza.
 
     Skills:
       - name: Applied Mathematics and Optimization
@@ -197,12 +215,15 @@ cv:
     References:
       - name: Leandro F. Prudente
         icon: fa-solid fa-user
+        summary: Associate Professor at the Institute of Mathematics and Statistics of the Federal University of Goias (UFG). His research interests include nonlinear programming, multiobjective optimization, numerical optimization, and numerical linear algebra for optimization.
         reference: Associate Professor at the Institute of Mathematics and Statistics of the Federal University of Goias (UFG). His research interests include nonlinear programming, multiobjective optimization, numerical optimization, and numerical linear algebra for optimization.
 
       - name: Ernesto G. Birgin
         icon: fa-solid fa-user
+        summary: Full Professor at the Department of Computer Science, Institute of Mathematics and Statistics, University of Sao Paulo. Member of the Continuous Optimization group at IME-USP. His research interests include nonlinear programming, optimization, and operations research.
         reference: Full Professor at the Department of Computer Science, Institute of Mathematics and Statistics, University of Sao Paulo. Member of the Continuous Optimization group at IME-USP. His research interests include nonlinear programming, optimization, and operations research.
 
       - name: Paulo J. S. Silva
         icon: fa-solid fa-user
+        summary: Full Professor at the Department of Applied Mathematics, Institute of Mathematics, Statistics and Scientific Computing, University of Campinas. His main research area is continuous optimization, particularly convex programming, with additional interests in pattern recognition and support vector machines.
         reference: Full Professor at the Department of Applied Mathematics, Institute of Mathematics, Statistics and Scientific Computing, University of Campinas. His main research area is continuous optimization, particularly convex programming, with additional interests in pattern recognition and support vector machines.
