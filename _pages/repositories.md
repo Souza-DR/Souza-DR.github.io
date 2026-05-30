@@ -16,6 +16,7 @@ nav_order: 4
 {% endif %}
 
 {% if group.people %}
+
 <p>
   <strong>{{ group.people_label }}:</strong>
   {% for person in group.people -%}
@@ -25,6 +26,7 @@ nav_order: 4
 {% endif %}
 
 {% for repo in group.repositories %}
+
 <div class="pb-3 mb-3 border-bottom">
   <h3 class="h5 mb-1">
     {% if repo.url %}
@@ -34,20 +36,24 @@ nav_order: 4
     {% endif %}
   </h3>
 
-  {% if repo.summary %}
-    <p class="mb-1">{{ repo.summary }}</p>
-  {% endif %}
+{% if repo.summary %}
 
-  {% if repo.related_title %}
-    <p class="mb-1">
-      <strong>Related work:</strong>
-      <a href="{{ repo.related_url | relative_url }}">{{ repo.related_title }}</a>
-    </p>
-  {% endif %}
+<p class="mb-1">{{ repo.summary }}</p>
+{% endif %}
 
-  {% if repo.status %}
-    <p class="mb-0"><strong>Status:</strong> {{ repo.status }}</p>
-  {% endif %}
+{% if repo.related_title %}
+
+<p class="mb-1">
+<strong>Related work:</strong>
+<a href="{{ repo.related_url | relative_url }}">{{ repo.related_title }}</a>
+</p>
+{% endif %}
+
+{% if repo.status %}
+
+<p class="mb-0"><strong>Status:</strong> {{ repo.status }}</p>
+{% endif %}
+
 </div>
 {% endfor %}
 

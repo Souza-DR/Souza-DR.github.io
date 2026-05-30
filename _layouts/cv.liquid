@@ -119,7 +119,7 @@ layout: default
 
         <!-- Summary -->
         {% assign summary_text = cv.summary %}
-        {% if summary_text == nil or summary_text == '' %}
+        {% if summary_text == null or summary_text == '' %}
           {% for section_pair in cv.sections %}
             {% if section_pair[0] == 'Professional Summary' or section_pair[0] == 'Summary' %}
               {% assign summary_text = section_pair[1] | first %}
@@ -156,7 +156,11 @@ layout: default
           {% assign section_entries = section_pair[1] %}
 
           {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
-          {% if section_title == 'Experience' or section_title == 'Volunteer' or section_title == 'Professional Summary' or section_title == 'Summary' %}
+          {% if section_title == 'Experience'
+            or section_title == 'Volunteer'
+            or section_title == 'Professional Summary'
+            or section_title == 'Summary'
+          %}
             {% continue %}
           {% endif %}
 

@@ -136,31 +136,14 @@ cv:
         url: https://repositorio.bc.ufg.br/tedeserver/api/core/bitstreams/ed33baf8-2725-4d5f-a174-167794f4f7ad/content
 
     Skills:
-      - name: Applied Mathematics and Optimization
-        icon: fa-solid fa-hashtag
-        keywords:
-          - Continuous Optimization
-          - Multiobjective Optimization
-          - Quasi-Newton Methods
-          - Conjugate Gradient Methods
-          - Derivative-free Methods
+      - label: Applied Mathematics and Optimization
+        details: Continuous Optimization, Multiobjective Optimization, Quasi-Newton Methods, Conjugate Gradient Methods, Derivative-free Methods
 
-      - name: Inverse Problems and Computational Applications
-        icon: fa-solid fa-hashtag
-        keywords:
-          - Inverse Problems
-          - Full Waveform Inversion
-          - Elastic Full Waveform Inversion
-          - Electrical Impedance Tomography
+      - label: Inverse Problems and Computational Applications
+        details: Inverse Problems, Full Waveform Inversion, Elastic Full Waveform Inversion, Electrical Impedance Tomography
 
-      - name: Scientific Programming
-        icon: fa-solid fa-hashtag
-        keywords:
-          - Julia
-          - Python
-          - MATLAB
-          - Fortran
-          - FEniCS
+      - label: Scientific Programming
+        details: Julia, Python, MATLAB, Fortran, FEniCS
 
     Languages:
       - name: Portuguese
@@ -170,37 +153,17 @@ cv:
         summary: "Intermediate reading and writing; limited speaking proficiency"
 
     Interests:
-      - name: Multiobjective Optimization
-        icon: fa-solid fa-tag
-        keywords:
-          - Direct vector methods
-          - Pareto optimality
-          - Quasi-Newton methods
-          - Derivative-free methods
+      - label: Multiobjective Optimization
+        details: Direct vector methods, Pareto optimality, Quasi-Newton methods, Derivative-free methods
 
-      - name: Scientific Software in Julia
-        icon: fa-solid fa-tag
-        keywords:
-          - Julia packages
-          - Multiobjective optimization solvers
-          - Benchmark problems
-          - Metrics and performance profiles
+      - label: Scientific Software in Julia
+        details: Julia packages, Multiobjective optimization solvers, Benchmark problems, Metrics and performance profiles
 
-      - name: Large-Scale Optimization
-        icon: fa-solid fa-tag
-        keywords:
-          - Scalar optimization
-          - Stochastic optimization
-          - Minibatch strategies
-          - High-performance computing
+      - label: Large-Scale Optimization
+        details: Scalar optimization, Stochastic optimization, Minibatch strategies, High-performance computing
 
-      - name: Inverse Problems and Applied Mathematics
-        icon: fa-solid fa-tag
-        keywords:
-          - Full Waveform Inversion
-          - Elastic Full Waveform Inversion
-          - Electrical Impedance Tomography
-          - Inverse problems
+      - label: Inverse Problems and Applied Mathematics
+        details: Full Waveform Inversion, Elastic Full Waveform Inversion, Electrical Impedance Tomography, Inverse problems
 
     Projects:
       - name: VectorOptimizationGroup

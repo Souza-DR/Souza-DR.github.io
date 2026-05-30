@@ -77,6 +77,7 @@ nav_order: 6
         </div>
       </div>
     </li>
+
   </ol>
 
   <h2 class="bibliography">2023</h2>
@@ -144,6 +145,7 @@ nav_order: 6
         </div>
       </div>
     </li>
+
   </ol>
 
   <h2 class="bibliography">2022</h2>
@@ -179,6 +181,7 @@ nav_order: 6
         </div>
       </div>
     </li>
+
   </ol>
 
   <h2 class="bibliography">2021</h2>
@@ -215,5 +218,6 @@ nav_order: 6
         </div>
       </div>
     </li>
+
   </ol>
 </div>
