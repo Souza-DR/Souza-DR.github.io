@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-06'
 papers:
   a3NLwcoAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -18,10 +18,10 @@ papers:
     title: 'Reconstruction of Voronoi diagrams: the case of inverse conductivity problems'
     year: '2025'
   a3NLwcoAAAAJ:u-x6o8ySG0sC:
-    citations: 18
+    citations: 19
     title: Global convergence of a BFGS-type algorithm for nonconvex multiobjective optimization problems
     year: '2023'
   a3NLwcoAAAAJ:u5HHmVD_uO8C:
-    citations: 43
+    citations: 42
     title: A quasi-Newton method with Wolfe line searches for multiobjective optimization
     year: '2022'
