@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-08-21'
 papers:
   a3NLwcoAAAAJ:2osOgNQ5qMEC:
     citations: 2
     title: Reconstruction of Voronoi diagrams in inverse potential problems
     year: '2024'
   a3NLwcoAAAAJ:IjCSPb-OGe4C:
-    citations: 0
+    citations: 1
     title: A Partially Derivative-Free Proximal Method for Composite Multiobjective Optimization in the H\" older Setting
     year: '2025'
   a3NLwcoAAAAJ:UeHWp8X0CEIC:
@@ -19,9 +19,9 @@ papers:
     year: '2025'
   a3NLwcoAAAAJ:u-x6o8ySG0sC:
     citations: 19
-    title: Global convergence of a BFGS-type algorithm for nonconvex multiobjective optimization problems
-    year: '2023'
+    title: 'Global convergence of a BFGS-type algorithm for nonconvex multiobjective optimization problems: LF Prudente, DR Souza'
+    year: '2024'
   a3NLwcoAAAAJ:u5HHmVD_uO8C:
-    citations: 42
+    citations: 44
     title: A quasi-Newton method with Wolfe line searches for multiobjective optimization
     year: '2022'
