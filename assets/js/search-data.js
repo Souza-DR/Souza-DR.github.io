@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/talks/";
           },
-        },{id: "projects-vector-optimization-group",
+        },{id: "post-reusable-julia-packages-for-multiobjective-problems-and-line-searches",
+        
+          title: "Reusable Julia packages for multiobjective problems and line searches",
+        
+        description: "Registering MultiObjectiveProblems.jl and extracting MultiObjectiveLineSearches.jl from research code.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/julia-packages-for-multiobjective-optimization/";
+          
+        },
+      },{id: "projects-vector-optimization-group",
           title: 'Vector Optimization Group',
           description: "An open source Julia initiative for vector and multiobjective optimization.",
           section: "Projects",handler: () => {
