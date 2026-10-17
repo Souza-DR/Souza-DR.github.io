@@ -49,6 +49,11 @@ nav_order: 4
 </p>
 {% endif %}
 
+{% if repo.docs_url %}
+
+<p class="mb-1"><a href="{{ repo.docs_url }}">Documentation</a></p>
+{% endif %}
+
 {% if repo.status %}
 
 <p class="mb-0"><strong>Status:</strong> {{ repo.status }}</p>

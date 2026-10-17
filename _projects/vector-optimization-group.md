@@ -30,16 +30,39 @@ JuMP deserves separate consideration. Its ecosystem already provides a well-desi
 
 ## Packages
 
-The organization currently hosts three main packages:
+The organization develops complementary tools for benchmark problems, line searches, solvers, and experimental evaluation.
 
-- [**MOProblems.jl**](https://github.com/VectorOptimizationGroup/MOProblems.jl): a collection of multiobjective optimization test problems.
-- [**MOSolvers.jl**](https://github.com/VectorOptimizationGroup/MOSolvers.jl): methods and solvers for multiobjective optimization.
-- [**MOMetrics.jl**](https://github.com/VectorOptimizationGroup/MOMetrics.jl): evaluation metrics for multiobjective optimization.
+### MultiObjectiveProblems.jl
 
-MOProblems.jl and MOSolvers.jl already have functional public versions. MOMetrics.jl is still private while under development. Some relevant metrics and related information are already available in the JuMP ecosystem; MOMetrics.jl is intended to complement this existing work with metrics useful for the problems and methods developed by the Vector Optimization Group.
+[MultiObjectiveProblems.jl](https://github.com/VectorOptimizationGroup/MultiObjectiveProblems.jl), previously named MOProblems.jl, is a curated library of benchmark problems for multiobjective optimization. It provides a consistent evaluation API, analytical derivatives for supported problems, and metadata-based catalog queries. The package is now registered in Julia's General registry and can be installed by name:
 
-## Current Stage
+```julia
+import Pkg
+Pkg.add("MultiObjectiveProblems")
+```
+
+The [documentation](https://vectoroptimizationgroup.github.io/MultiObjectiveProblems.jl/stable/) includes mathematical formulations, usage examples, an API reference, and bibliographic sources.
+
+### MultiObjectiveLineSearches.jl
+
+[MultiObjectiveLineSearches.jl](https://github.com/VectorOptimizationGroup/MultiObjectiveLineSearches.jl) provides reusable line searches for multiobjective optimization. Its current method, `BackTracking`, uses an Armijo-type sufficient decrease condition on all objectives, with safeguarded quadratic interpolation.
+
+I developed this independent package by refactoring the line-search implementation previously included in MOSolvers.jl. I describe the refactoring and the use of AI coding tools in a [research update]({% link _posts/2026-10-17-julia-packages-for-multiobjective-optimization.md %}). Its [documentation](https://vectoroptimizationgroup.github.io/MultiObjectiveLineSearches.jl/dev/) covers usage, mathematical formulations, the API, and literature references.
+
+The package is public but is not yet registered in General. It can be installed directly from GitHub:
+
+```julia
+import Pkg
+Pkg.add(url = "https://github.com/VectorOptimizationGroup/MultiObjectiveLineSearches.jl")
+```
+
+### Solvers and evaluation
+
+- [**MOSolvers.jl**](https://github.com/VectorOptimizationGroup/MOSolvers.jl): methods and solvers for multiobjective optimization. The separate line-search package makes this numerical component available for reuse beyond a single solver package.
+- **MOMetrics.jl**: evaluation metrics for multiobjective optimization. It remains private while under development. Some relevant metrics and related information are already available in the JuMP ecosystem; MOMetrics.jl is intended to complement this existing work with metrics useful for the group's problems and methods.
+
+## Current stage
 
 This initiative is naturally connected to my research background, since my PhD focused on multiobjective optimization. It is also an opportunity to deepen my experience with Julia, package development, documentation, testing, and open source collaboration. Julia is a modern open source language with competitive performance and expressive syntax, but several scientific areas would still benefit from a broader contributor base.
 
-The project remains at an early stage. The code was initially developed in a concentrated way, leaving room for refactoring, improved documentation, internal reorganization, and API maturation. The long-term goal is to strengthen the packages, encourage external contributions, and possibly create a dedicated website for the Vector Optimization Group.
+The initiative is progressing from research code toward reusable scientific packages. The registration of MultiObjectiveProblems.jl and the extraction of MultiObjectiveLineSearches.jl are recent steps in this direction. Further work includes API maturation, solver integration, and broader experimental evaluation. The long-term goal is to strengthen the packages, encourage external contributions, and possibly create a dedicated website for the Vector Optimization Group.

@@ -29,6 +29,8 @@ I am **Danilo R. Souza**, a mathematician (B.Sc., M.Sc., and Ph.D. in **Mathemat
 
 I completed a **postdoctoral position in Applied Mathematics at USP (2024)**, with emphasis on **inverse problems**. My current research is strongly connected to **seismic inversion** and **Full Waveform Inversion (FWI)**, with a special interest in **large-scale stochastic optimization** for elastic FWI.
 
+I also develop open source Julia software for multiobjective optimization through the [Vector Optimization Group]({% link _projects/vector-optimization-group.md %}), including benchmark problems, line searches, and solvers.
+
 - **Location:** Campinas-SP, Brazil
 - **Areas:** Mathematical Optimization, Stochastic Optimization, Multiobjective Optimization, Derivative-Free Methods, Inverse Problems, FWI and EFWI
 - **Applied interests:** Computational geophysics, numerical methods, HPC, and multi-language pipelines (Julia/Python/C)

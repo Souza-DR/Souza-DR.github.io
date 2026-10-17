@@ -167,12 +167,13 @@ cv:
 
     Projects:
       - name: VectorOptimizationGroup
-        summary: GitHub organization focused on software for multiobjective/vector optimization, with Julia packages for solvers, benchmark problems, and experimental evaluation.
+        summary: GitHub organization focused on software for multiobjective/vector optimization, with Julia packages for solvers, benchmark problems, line searches, and experimental evaluation.
         url: https://github.com/VectorOptimizationGroup
         highlights:
           - "Co-founder of the organization together with L. F. Prudente and Pedro Assuncao Filho."
           - "MOSolvers.jl: Julia package for multiobjective optimization solvers."
-          - "MOProblems.jl: Julia package for benchmark problems in multiobjective optimization."
+          - "MultiObjectiveProblems.jl: Curated multiobjective benchmark library, registered in Julia's General registry."
+          - "MultiObjectiveLineSearches.jl: Standalone Julia package for multiobjective line searches, refactored from MOSolvers.jl with dedicated documentation."
           - "MOMetrics.jl: Julia package for metrics and evaluation utilities for multiobjective optimization experiments."
 
     References:

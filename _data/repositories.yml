@@ -15,9 +15,16 @@ repository_groups:
       - name: MOSolvers.jl
         url: https://github.com/VectorOptimizationGroup/MOSolvers.jl
         summary: Solvers for multiobjective optimization.
-      - name: MOProblems.jl
-        url: https://github.com/VectorOptimizationGroup/MOProblems.jl
-        summary: Collection and organization of benchmark problems.
+      - name: MultiObjectiveProblems.jl
+        url: https://github.com/VectorOptimizationGroup/MultiObjectiveProblems.jl
+        summary: Curated multiobjective benchmark problems with a consistent evaluation API, analytical derivatives for supported problems, and catalog queries.
+        docs_url: https://vectoroptimizationgroup.github.io/MultiObjectiveProblems.jl/stable/
+        status: Registered in Julia's General registry. Install with Pkg.add("MultiObjectiveProblems").
+      - name: MultiObjectiveLineSearches.jl
+        url: https://github.com/VectorOptimizationGroup/MultiObjectiveLineSearches.jl
+        summary: Reusable multiobjective line searches, extracted from MOSolvers.jl, including Armijo-type backtracking with safeguarded quadratic interpolation.
+        docs_url: https://vectoroptimizationgroup.github.io/MultiObjectiveLineSearches.jl/dev/
+        status: Public and documented; not yet registered in General. Install from the GitHub URL.
       - name: MOMetrics.jl
         summary: Metrics and evaluation utilities for multiobjective optimization experiments.
         status: Currently private while under development.
